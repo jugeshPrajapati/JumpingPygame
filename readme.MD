@@ -10,12 +10,13 @@ Key Features:
 
 Can you climb high enough to beat your own high score? Strap in and start jumping!
 Download EXE file from dist folder.
-
+ 
 
 
 
 python -m venv .venv
 .\.venv\Scripts\activate.bat
+
 pip install pygame pyinstaller
 pip freeze > requirements.txt
 
