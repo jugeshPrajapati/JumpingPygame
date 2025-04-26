@@ -1,0 +1,33 @@
+import os
+
+BASE_DIR   = os.path.dirname(__file__)
+HS_FILE    = os.path.join(BASE_DIR, "highscore1.txt")
+FRAME_PATH = os.path.join(BASE_DIR, "images/")
+MUSIC_PATH = os.path.join(BASE_DIR, "sounds/")
+
+width=375
+height=480
+FPS=30
+PLAYER_ACC=0.5
+PLAYER_FRICTION= -0.12
+GRAVITY =0.9
+PLAYER_JUMP_SPEED=23
+MOON_JUMP_SPEED=10
+PLATFORM_LIST = [(width/2 -50,height*3/4,100,20)
+                 ,(125,height-350,100,20),(350,200,100,20),(175,100,50,20)]
+
+PLAYER_LAYER=1
+PLATFORM_LAYER=2
+ENEMY_LAYER=2
+BLACK=(0,0,0)
+WHITE=(255,255,255)
+RED=(255,0,0)
+GREEN=(0,255,0)
+BLUE=(0,0,255)
+
+EXTRA=(127,127,127)
+ORANGE=(204,102,0)
+LITE_YELLOW=(255,255,153)
+LITE_ORANGE=(255,204,153)
+DARK_SKY=(0,102,102)
+LITE_SKY=(153,204,255)
